@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Welcome to Chez Hawk</title>
+</head>
+<style>
+    .chezblue {
+        position: relative; 
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        /*align-items: center;*/
+        justify-content: center;
+    }
+     .chezblue::before {    
+      content: "";
+      background-image: url('images/chezhawkblue-sm2.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.30;
+}
+</style>
+<body>
+<div class="chezblue">
+<table style="height:20%" border="0">
+    <tr><td>
+        <h1>Coming soon....</h1>
+    </td></tr>
+    <tr><td>
+        <h3>The return of chezhawk.com... w00t!</h3>
+    </td></tr>
+    <!--
+        <tr><td>
+        <a href="WillowHillGarage/index.php">Willow Hill Garage</a>   
+    </td></tr>
+    -->
+</table>
+</div>
+</body>
+</html>
